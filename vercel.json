@@ -8,17 +8,8 @@
 ],
 "routes": [
 {
-"src": "/_next/static/(.*)",
-"headers": {
-"Cache-Control": "public, max-age=31536000, immutable"
-}
-},
-{
 "src": "/(.*)",
 "dest": "/index.html",
-"headers": {
-"Cache-Control": "no-cache"
-}
 }
 ]
 }
